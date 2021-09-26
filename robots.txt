@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://woo0dev.github.io/sitemap.xml
+Host: https://woo0dev.github.io
