@@ -85,5 +85,3 @@ git 홈페이지에 Documentation 밑에 Reference에 모든 명령어들을 확
     git commit -m 'commit message'
 commit을 할 때에는 module 단위로 하는 것이 좋고, commit message에 해당하는 부분만 commit하는 것이 나중에 코드리뷰를 할 때에나 유지보수를 할 때 편리하게 관리할 수 있다.  
 commit 단위는 너무 크지도 너무 작지도 않게 하는 것이 좋다.
-
-#### 
