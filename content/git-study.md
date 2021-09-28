@@ -63,7 +63,7 @@ git status : git 상태 확인 명령어
 3. .git directory : version history가 저장되어 있는 곳  
 -> .git directory에 저장되어 있는 파일들을 push 명령어를 통해 remote에 저장하고 pull 명령어를 통해 remote에 있는 파일을 local로 다시 가져올 수 있다.  
 
-#### untracked file을 traking 하는 방ㅌ법 (working directory에서 staging area로 이동)
+#### untracked file을 traking 하는 방법 (working directory에서 staging area로 이동)
 ```bash
 git add .
 git add filename
