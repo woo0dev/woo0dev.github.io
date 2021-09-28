@@ -33,11 +33,11 @@ module.exports = {
         date: '2021.09 ~',
         activity: '개인 블로그 개발 및 운영',
         links: {
-          github: 'https://github.com/woo0dev/woo0dev.github.io',
+          github: 'https://github.com/woo0dev',
           post: '',
           googlePlay: '',
           appStore: '',
-          demo: 'https://woo0dev.github.io/',
+          demo: 'https://github.com/woo0dev/woo0dev.github.io/',
         },
       },
       // ========================================================
