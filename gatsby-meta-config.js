@@ -1,8 +1,8 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `woo0dev.github.io`,
+  description: `woo0's Blog`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://woo0dev.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -11,16 +11,16 @@ module.exports = {
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `정우영`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: ['커뮤니케이션을 중요시하는', '책임감이 있는', '이로운 것을 만드는'],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {
-      github: ``, // `https://github.com/zoomKoding`,
-      linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: ``, // `zoomkoding@gmail.com`,
+      github: `https://github.com/woo0dev`, // `https://github.com/woo0dev`,
+      linkedIn: ``, // ``,
+      email: ``, // `dongho9732@gmail.com`,
     },
   },
 
@@ -30,25 +30,25 @@ module.exports = {
       // =====       [Timestamp Sample and Structure]      =====
       // ===== 🚫 Don't erase this sample (여기 지우지 마세요!) =====
       {
-        date: '',
-        activity: '',
+        date: '2021.09 ~',
+        activity: '개인 블로그 개발 및 운영',
         links: {
-          github: '',
+          github: 'https://github.com/woo0dev/woo0dev.github.io',
           post: '',
           googlePlay: '',
           appStore: '',
-          demo: '',
+          demo: 'https://woo0dev.github.io/',
         },
       },
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
+        date: '',
+        activity: '',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          post: '',
+          github: 'https://github.com/woo0dev/woo0dev.github.io',
+          demo: 'https://www.woo0dev.com',
         },
       },
     ],
@@ -57,9 +57,9 @@ module.exports = {
       // =====        [Project Sample and Structure]        =====
       // ===== 🚫 Don't erase this sample (여기 지우지 마세요!)  =====
       {
-        title: '',
-        description: '',
-        techStack: ['', ''],
+        title: '개인 블로그 운영',
+        description: 'React에 관심을 가지게 되면서 제 이야기를 담을 수 있는 블로그를 직접 디자인하고 개발하고 싶어서 만들게 되었습니다.',
+        techStack: ['react', 'gatsby'],
         thumbnailUrl: '',
         links: {
           post: '',
@@ -72,15 +72,15 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
+        title: '',
         description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
+          '',
         techStack: ['gatsby', 'react'],
         thumbnailUrl: 'blog.png',
         links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
+          post: '',
+          github: 'https://github.com/woo0dev/woo0dev.github.io',
+          demo: 'https://www.woo0dev.com',
         },
       },
     ],
