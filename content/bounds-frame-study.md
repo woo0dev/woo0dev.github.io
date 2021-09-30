@@ -4,7 +4,7 @@ title: Bounds와 Frame의 차이
 date: '2021-09-30'
 author: woo0dev
 tags: iOS Bounds Frame
-categories: 블로그
+categories: iOS
 ---
 
 # Bounds와 Frame

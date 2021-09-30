@@ -4,7 +4,7 @@ title: Gatsby 테마로 GitHub Blog 만들기
 date: '2021-09-25'
 author: woo0dev
 tags: 블로그 github-pages gatsby
-categories: 블로그
+categories: git
 ---
 
 ### 내가 블로그를 시작하게 된 계기는 개발이 아닌 관련 공부를 할 때 정리를 하고 싶어서 여러가지 블로그를 찾아보다가 현재 사용중인 GitHub와 연동하여 사용할 수 있는 블로그 라이브러리인 Gatsby를 알게 되어 만들게 되었다.
