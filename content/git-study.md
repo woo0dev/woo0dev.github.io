@@ -4,7 +4,7 @@ title: Git 정리
 date: '2021-09-29'
 author: woo0dev
 tags: github
-categories: 블로그
+categories: git
 ---
 
 # Git 정리하기
