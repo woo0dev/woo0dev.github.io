@@ -1,13 +1,13 @@
 ---
 emoji: 🐻
-title: iOS App 상태 별 제약사항
+title: iOS App 상태별 제약사항
 date: '2021-10-02'
 author: woo0dev
 tags: iOS Foreground Background
 categories: iOS
 ---
 
-# iOS App 상태 별 제약사항에 대해 알아보자
+# iOS App 상태별 제약사항에 대해 알아보자
 
 1. not Running : 앱이 실행되지 않은 상태  
 
@@ -21,7 +21,7 @@ categories: iOS
 4. Suspened : 앱이 백그라운드에 있고 실행되는 코드가 없는 상태  
 (App은 여전히 메모리에 존재하며 Suspened 상태가 될 당시의 상태를 저장하고 있지만, CPU나 배터리를 소모하지 않습니다. 언제든지 메모리 부족등의 이유로 종료됨.)
 
-## 앱의 상태 별 제약사항
+## 앱의 상태별 제약사항
 
 ___Foreground mode___는 메모리 및 기타 시스템 리소스에 높은 우선순위를 가지며 시스템은 이러한 리소스를 사용할 수 있도록 필요에 따라 background 앱을 종료합니다.  
 
