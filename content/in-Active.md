@@ -4,7 +4,7 @@ title: 앱이 In-Active 상태가 되는 시나리오
 date: '2021-10-12'
 author: woo0dev
 tags: iOS In-Active
-categories: iOSgit
+categories: iOS
 ---
 
 # 앱이 In-Active 상태가 되는 시나리오를 설명하시오.
