@@ -44,3 +44,7 @@ let name: String = "Hong"
 * UInt - 양수
 * Float - 소수점
 * Bool - True, False (다른 언어와 달리 0, 1같은 표현방식은 허용하지 않음.)
+
+* Any - Swift의 모든 타입을 지칭하는 키워드 (nil은 불가능)
+* AnyObject - 모든 클래스 타입을 지칭하는 키워드 (nil은 불가능)
+* nil - 없음을 의미하는 키워드
