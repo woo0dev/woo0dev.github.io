@@ -28,8 +28,14 @@ categories: iOS
 ```Swift
 var name: String = "Hong"
 ```
-값의 타입이 명확하다면 타입은 생략이 가능하다.
 추후에 var로 선언된 변수의 값을 바꿀 수 있다.
+
+### 타입 추론
+```Swift
+var number = 10
+var name = "hong"
+```
+값의 타입이 명확하다면 타입은 생략이 가능하다.
 
 ### 상수 let
 ```Swift
@@ -39,11 +45,39 @@ let name: String = "Hong"
 
 ### 데이터 타입
 * Character - 유니코드를 사용하여 한글자만 할당 가능한 타입 (ex> 'a', '가', '😀' 등)
+```Swift
+var someCharacter: Character = "가"
+someCharacter = "A"
+someCharacter = "😀"
+```
 * String - 문자열
-* Int - 양수 및 음수
-* UInt - 양수
-* Float - 소수점
-* Bool - True, False (다른 언어와 달리 0, 1같은 표현방식은 허용하지 않음.)
+```Swift
+var someString: String = "안녕하세요"
+```
+* Int - 64bit 정수형
+```Swift
+var someInt: Int = -100
+someInt = 100
+```
+* UInt - 부호가 없는 64bit 정수형
+```Swift
+var someUInt: UInt = 200
+```
+* Float - 32bit 부동 소수점
+```Swift
+var someFloat: Float = 1.1
+someFloat = 1
+```
+* Double - 64bit 부동 소수점
+```Swift
+var someDouble: Double = 1.1
+someDouble = 1
+```
+* Bool - true, false (다른 언어와 달리 0, 1같은 표현방식은 허용하지 않음.)
+```Swift
+var someBool: Bool = true
+someBool = false
+```
 
 * Any - Swift의 모든 타입을 지칭하는 키워드 (nil은 불가능)
 * AnyObject - 모든 클래스 타입을 지칭하는 키워드 (nil은 불가능)
