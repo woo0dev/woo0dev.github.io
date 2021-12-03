@@ -1,7 +1,7 @@
 ---
 emoji: 🐻
 title: Swift Collection Type
-date: '2021-12-01'
+date: '2021-12-02'
 author: woo0dev
 tags: iOS Swift Collection
 categories: iOS
