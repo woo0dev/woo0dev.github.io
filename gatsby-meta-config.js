@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `개발자`,
       description: ['커뮤니케이션을 중요시하는', '책임감이 있는', '이로운 것을 만드는'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      thumbnail: 'MyPhoto.JPG', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/woo0dev`, // `https://github.com/woo0dev`,
