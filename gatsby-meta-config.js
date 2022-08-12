@@ -9,7 +9,7 @@ module.exports = {
       repo: `woo0dev/woo0dev.github.io`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: 'G-634HCLRNW6', // Google Analytics Tracking ID
   author: {
     name: `정우영`,
     bio: {
@@ -19,8 +19,8 @@ module.exports = {
     },
     social: {
       github: `https://github.com/woo0dev`, // `https://github.com/woo0dev`,
-      linkedIn: ``, // ``,
-      email: ``, // `dongho9732@gmail.com`,
+      linkedIn: `https://www.linkedin.com/in/wooyeong-jung-413678234/`, // ``,
+      email: `dongho9732@gmail.com`, // `dongho9732@gmail.com`,
     },
   },
 
