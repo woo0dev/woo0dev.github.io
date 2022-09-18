@@ -39,13 +39,13 @@ module.exports = {
           },
           'branch-deploy': {
             policy: [{ userAgent: '*', disallow: ['/'] }],
-            sitemap: null,
-            host: null,
+            sitemap: 'https://woo0dev.github.io/sitemap.xml',
+            host: 'https://woo0dev.github.io/',
           },
           'deploy-preview': {
             policy: [{ userAgent: '*', disallow: ['/'] }],
-            sitemap: null,
-            host: null,
+            sitemap: 'https://woo0dev.github.io/sitemap.xml',
+            host: 'https://woo0dev.github.io/',
           },
         },
       },
