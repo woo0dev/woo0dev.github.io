@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[woo0dev.github.io]]></title><description><![CDATA[woo0's Blog]]></description><link>https://woo0dev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 23 Sep 2022 08:28:26 GMT</lastBuildDate><item><title><![CDATA[Swift UITableView]]></title><description><![CDATA[UITableView? 데이터들 목록 형태로 보여줄 수 있는 가장 기본적인 UI 컴포넌트 여러 개의 Cell…]]></description><link>https://woo0dev.github.io/swift-grammar/swift-tableView/</link><guid isPermaLink="false">https://woo0dev.github.io/swift-grammar/swift-tableView/</guid><pubDate>Fri, 23 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;uitableview&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#uitableview&quot; aria-label=&quot;uitableview permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UITableView?&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[woo0dev.github.io]]></title><description><![CDATA[woo0's Blog]]></description><link>https://woo0dev.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 25 Sep 2022 12:50:14 GMT</lastBuildDate><item><title><![CDATA[Swift SwiftUI란?]]></title><description><![CDATA[SwiftUI UIKit과 SwiftUI의 차이점 UIKit - 명령형
+SwiftUI - 선언형 SwiftUI의 View
+State가 Input으로 들어가고 함수 과정을 거쳐 View가 출력되는 형식 @State, @ObservableObject…]]></description><link>https://woo0dev.github.io/swift-grammar/swift-swiftui/</link><guid isPermaLink="false">https://woo0dev.github.io/swift-grammar/swift-swiftui/</guid><pubDate>Sun, 25 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;swiftui&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#swiftui&quot; aria-label=&quot;swiftui permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;SwiftUI&lt;/h1&gt;
+&lt;h3 id=&quot;uikit과-swiftui의-차이점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#uikit%EA%B3%BC-swiftui%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90&quot; aria-label=&quot;uikit과 swiftui의 차이점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UIKit과 SwiftUI의 차이점&lt;/h3&gt;
+&lt;p&gt;UIKit - 명령형
+SwiftUI - 선언형&lt;/p&gt;
+&lt;p&gt;SwiftUI의 View
+State가 Input으로 들어가고 함수 과정을 거쳐 View가 출력되는 형식&lt;/p&gt;
+&lt;h3 id=&quot;state-observableobject&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#state-observableobject&quot; aria-label=&quot;state observableobject permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;@State, @ObservableObject&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;@State&lt;/th&gt;
+&lt;th&gt;@ObsevableObject&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;View-local&lt;/td&gt;
+&lt;td&gt;External&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Value Type&lt;/td&gt;
+&lt;td&gt;Reference Type&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Framework Managed&lt;/td&gt;
+&lt;td&gt;Developer Managed&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;swiftui의-data-flow&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#swiftui%EC%9D%98-data-flow&quot; aria-label=&quot;swiftui의 data flow permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;SwiftUI의 Data Flow&lt;/h3&gt;
+&lt;p&gt;User Interaction을 통해 어떠한 Action이 발생하면 이러한 Action의 변화는 @State (상태)를 변화시키고 그에 대한 Update가 이루어지고 View에 반영되고 나면 Render 과정을 통해 User에게 보여진다.&lt;/p&gt;
+&lt;h3 id=&quot;container-view&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#container-view&quot; aria-label=&quot;container view permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Container View&lt;/h3&gt;
+&lt;p&gt;Stack : View를 배치할 때 사용한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VStack : 수직&lt;/li&gt;
+&lt;li&gt;HStack : 수평&lt;/li&gt;
+&lt;li&gt;ZStack : 3차원&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;LazyStack&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LazyVStack&lt;/li&gt;
+&lt;li&gt;LazyHStack
+Grid
+List
+Form&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Swift UITableView]]></title><description><![CDATA[UITableView? 데이터들 목록 형태로 보여줄 수 있는 가장 기본적인 UI 컴포넌트 여러 개의 Cell…]]></description><link>https://woo0dev.github.io/swift-grammar/swift-tableView/</link><guid isPermaLink="false">https://woo0dev.github.io/swift-grammar/swift-tableView/</guid><pubDate>Fri, 23 Sep 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;uitableview&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#uitableview&quot; aria-label=&quot;uitableview permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;UITableView?&lt;/h2&gt;
 &lt;p&gt;데이터들 목록 형태로 보여줄 수 있는 가장 기본적인 UI 컴포넌트&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;여러 개의 Cell을 가지고 있고 하나의 열과 여러 줄의 행을 지니고 있으며, 수직으로만 스크롤이 가능하다.&lt;/li&gt;
