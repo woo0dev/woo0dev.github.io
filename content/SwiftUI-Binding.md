@@ -16,6 +16,7 @@ categories: iOS
 
 ## @Binding이란 무엇인가?
 @State 변수에 $를 붙여서 사용할 수 있다. 위에서 말했듯이 WrapperValue 자체를 변경한다.
+
 예를들면 @State 변수를 만들고 다른 View에 @Binding 변수를 만들고 @State변수에 $를 붙여 @Binding 변수와 연결되어있는 상태에서 @Binding 변수의 값을 바꾸면 @State 변수의 값도 같이 변하는 방식이다. 즉 @Binding은 다른 어딘가에 연결되어있는 값을 말한다.
 
 ## @ObservedObject란 무엇인가?
